@@ -1,0 +1,21 @@
+# Ignorer les fichiers audio et uploads pour éviter les redémarrages en boucle
+uploads/
+public/uploads/
+logs/
+*.log
+*.mp3
+*.wav
+*.m4a
+*.mp4
+audio-manifest.json
+asmaa_cache/
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.temp
+
+# Ignorer les node_modules (par défaut mais on le précise)
+node_modules/
+
+# Ignorer les fichiers de cache
+.cache/

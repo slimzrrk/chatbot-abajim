@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Frontend",
+    "slug": "Frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Cette app utilise le micro pour parler avec le chatbot.",
+        "NSAllowsArbitraryLoads": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sarrarhouma.AbajimReact"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "BASE_URL": "https://311a-2a09-bac1-71c0-00-3b6-45.ngrok-free.app/api",
+      "eas": {
+        "projectId": "ecaa248d-a881-44d2-85f1-a11aadd8b0ef"
+      }
+    },
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
